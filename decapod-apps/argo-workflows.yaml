@@ -10,7 +10,7 @@ spec:
   project: decapod-controller
   source:
     path: decapod-reference/decapod-controller/argo-workflows-operator
-    repoURL: https://github.com/openinfradev/decapod-manifests.git
+    repoURL: https://github.com/ktkfree/decapod-manifests.git
     targetRevision: main
   syncPolicy:
     syncOptions:

@@ -10,7 +10,7 @@ server:
   config:
     repositories: |
       - type: git
-        url: https://github.com/openinfradev/decapod-bootstrap.git
+        url: https://github.com/ktkfree/decapod-bootstrap.git
     resource.customizations: |
       jaegertracing.io/Jaeger:
         ignoreDifferences: |
@@ -46,7 +46,7 @@ server:
       project: decapod-bootstrap
       source:
         path: decapod-apps
-        repoURL: https://github.com/openinfradev/decapod-bootstrap.git
+        repoURL: https://github.com/ktkfree/decapod-bootstrap.git
         targetRevision: main
         directory:
           recurse: true
@@ -63,7 +63,7 @@ server:
       project: decapod-bootstrap
       source:
         path: decapod-projects
-        repoURL: https://github.com/openinfradev/decapod-bootstrap.git
+        repoURL: https://github.com/ktkfree/decapod-bootstrap.git
         targetRevision: main
         directory:
           recurse: true
